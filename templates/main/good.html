@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+
+
+{% block title %}
+    Good
+{% endblock %}
+
+{% block content %}
+    {% for good in goods %}
+        {{ good }}
+    {% endfor %}
+
+{% endblock %}
